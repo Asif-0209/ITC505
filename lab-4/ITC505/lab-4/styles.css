@@ -1,0 +1,54 @@
+body {
+    font-family: 'Georgia', serif; /*classic font */
+    line-height: 1.6; 
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /*Light background*/
+    color: #333; /*Dark text*/
+}
+
+article {
+    background-color: #fff; /* articles will have White background */
+    border-radius: 8px; /* The corners will be rounded */
+    padding: 20px; /*The articles inside has spaces*/
+    margin-bottom: 20px; /* The Spaces between articles will be given  */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    font-size: 2.5em; /*main title will have Large size */
+    color: #2c3e50; /* Main tittle colour */
+    margin-bottom: 15px; /* For the space after the tittle */
+}
+
+h2 {
+    font-size: 2em; /* smaller than h1 */
+    color: #2980b9; /* Different colors for section headings other than main heading */
+    margin-top: 20px; 
+}
+
+h3 {
+    font-size: 1.5em; /* Smaller section headings */
+    color: #34495e; /* Slightly lighter color */
+    margin-top: 15px; /* Space above */
+}
+
+p {
+    font-size: 1em; /* Base font size */
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+a {
+    color: #2980b9; /* Color for links */
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; /* Underline*/
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em; /* Smaller font for footer */
+}
